@@ -9,7 +9,7 @@
             <sparkle:shortVersionString>0.1.6</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description><![CDATA[<pre>Mimo 0.1.6
+            <description><![CDATA[<div style="white-space: pre-wrap; overflow-wrap: anywhere; word-break: break-word;">Mimo 0.1.6
 
 English
 - Refined the menu bar panel with per-profile pinned policy groups, inline expansion and profile switching. Added Dashboard and Remote Controller shortcuts, removed duplicate traffic charts and the power button, and unified action rows and the native window material.
@@ -24,7 +24,7 @@ English
 - 扩展远程控制器的列自定义选项，连接详情显示自定义远程代理集名称。
 - 使用紧凑资源条替代系统图表，并在内核指标旁显示应用内存。
 - 修复列表表头多余边框、水平滚动条控制错误视口及连接详情滚动条裁切的问题，统一 MIPS 协议栈标签。
-</pre>
+</div>
 ]]></description>
             <enclosure url="https://github.com/MimoProxy/Mimo/releases/download/v0.1.6/Mimo-0.1.6-7.zip" length="65747417" type="application/octet-stream" sparkle:edSignature="MT54Kkhj636vaS+s8349eKEhn7SroYfvwwNSFid4InAZiw39akS41fQWbZGkfc+nGYkGj21S49Gk/mqjnJnZBg=="/>
         </item>
