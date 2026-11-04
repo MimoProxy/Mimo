@@ -3,6 +3,30 @@
     <channel>
         <title>Mimo</title>
         <item>
+            <title>0.1.4</title>
+            <pubDate>Wed, 04 Nov 2026 14:10:32 +0800</pubDate>
+            <sparkle:version>5</sparkle:version>
+            <sparkle:shortVersionString>0.1.4</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description><![CDATA[<pre>Mimo 0.1.4
+
+English
+- Added Simplified Chinese and English UI localization, following the system language.
+- Localized the main app, menu bar, Remote Controller, dialogs, help and error messages.
+- Improved English layouts and singular/plural forms for counts.
+- Preserved saved profile and node names, configuration values and traffic history.
+
+简体中文
+- 新增简体中文和英文界面，默认跟随系统语言。
+- 覆盖主应用、菜单栏、远程控制器、弹窗、帮助与错误提示。
+- 优化英文布局和数量单复数显示。
+- 保留已保存的配置与节点名称、配置值及流量历史。
+</pre>
+]]></description>
+            <enclosure url="https://github.com/MimoProxy/Mimo/releases/download/v0.1.4/Mimo-0.1.4-5.zip" length="65319502" type="application/octet-stream" sparkle:edSignature="ir1kBlV1FvcBKnm7dczlgCViXDPOoYqyGZJqih86mrebW4bdIILywW2QdzD+s5xmKYI5vy7MXH5XiIRhXeenDg=="/>
+        </item>
+        <item>
             <title>0.1.3</title>
             <pubDate>Wed, 04 Nov 2026 12:04:03 +0800</pubDate>
             <sparkle:version>4</sparkle:version>
