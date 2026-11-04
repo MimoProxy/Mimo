@@ -1,0 +1,15 @@
+Mimo 高清独立展示图
+
+输出：仪表盘（浅色）、仪表盘（深色）、远程控制器、代理与策略组，各一张独立 PNG。
+界面使用用户提供的实机截图，以原始像素绘制，不重绘、不缩放界面文字。
+两张仪表盘的外网 IP 和对应归属地使用与卡片一致的不透明背景覆盖，并改为“已隐藏”。
+内置 imagegen 仅生成无文字、无设备、无界面的背景底图；排版、标题和原截图以本地原生绘图完成。
+
+背景生成提示词：
+Use case: ads-marketing
+Asset type: background plate only for four separate high-resolution Mimo macOS screenshot showcases.
+Primary request: create a very restrained premium dark presentation BACKGROUND with no foreground content. This plate will have an actual original screenshot composited onto it later with deterministic native rendering, so do not draw any interface, laptop, text, symbols or mockups.
+Canvas: landscape 4:3, a seamless very dark charcoal/near-black field with a subtle, large, diffuse cool-blue light falloff around the center and a barely perceptible warm neutral falloff toward the upper right. Low-frequency smooth tonal variation only. Quiet edges that stay near black. Professional calm native Mac software product atmosphere.
+Important layout: central 85 percent will be covered by an app window. Decoration belongs only as soft atmospheric illumination around the margins. Background must stay visually unobtrusive.
+Avoid: all text, logos, letters, numbers, UI, screens, devices, frames, platforms, walls, objects, hard gradients, lines, patterns, grids, sharp light rays, strong glow, high contrast, texture, noise, watermarks.
+Deliver one clean background plate.
