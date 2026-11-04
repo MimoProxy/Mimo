@@ -4,104 +4,106 @@
 
 <h1>Mimo</h1>
 
-<p>基于 <a href="https://github.com/MetaCubeX/mihomo">mihomo</a> 的原生 macOS 代理客户端</p>
+<p><strong>English</strong> · <a href="README.zh-CN.md">简体中文</a></p>
+
+<p>A native macOS proxy client powered by <a href="https://github.com/MetaCubeX/mihomo">mihomo</a></p>
 
 <p>
-  <a href="https://github.com/MimoProxy/Mimo/releases/latest"><strong>下载最新版</strong></a> ·
-  <a href="https://github.com/MimoProxy/Mimo/releases">更新记录</a> ·
-  <a href="https://github.com/MimoProxy/Mimo/issues">问题反馈</a>
+  <a href="https://github.com/MimoProxy/Mimo/releases/latest"><strong>Download</strong></a> ·
+  <a href="https://github.com/MimoProxy/Mimo/releases">Release Notes</a> ·
+  <a href="https://github.com/MimoProxy/Mimo/issues">Report an Issue</a>
 </p>
 
 <p>
-  Mimo 的名字源自俄语「Мимо」，有「从旁经过」之意。<br />
-  愿每一次连接，都能轻巧地绕过阻碍，自在抵达你想去的地方。
+  Mimo takes its name from the Russian word “Мимо,” meaning “passing by.”<br />
+  May every connection glide past obstacles and carry you freely to wherever you wish to go.
 </p>
 
 </div>
 
-在熟悉的 Mac 界面里，管理配置、切换节点、设置分流，并查看网络状态。
+Manage configurations, switch nodes, set up routing rules, and monitor your network in a familiar Mac interface.
 
-Mimo 需要你自行提供代理节点或订阅，不提供代理服务。
+Mimo requires your own proxy nodes or subscription. It does not provide a proxy service.
 
-## 功能
+## Features
 
-- **配置管理**：导入 Clash / mihomo YAML 配置，或新建自定义配置；通过分类表单或 YAML 编辑，服务商配置更新后保留本地覆写。
-- **节点与策略组**：节点切换、延迟测试、搜索与筛选，支持手动选择、自动测速、故障转移和负载均衡。
-- **规则分流**：管理规则顺序与开关，查看规则集，编辑 DNS 与嗅探设置。
-- **系统代理与增强模式**：按需选择系统代理或 TUN，支持 IPv4 与双栈配置。
-- **网络状态**：查看实时速率、连接、今日与本月流量、出口 IP，以及互联网、网关、DNS 和代理诊断。
-- **远程控制器**：查看本机或远程 mihomo 的连接、代理链与 DNS 记录，按需断开连接。
-- **日常使用**：菜单栏快捷操作、登录启动、全局快捷键、应用更新、备份与恢复，以及自定义 JavaScript 面板。
-- **原生界面**：支持浅色与深色外观，跟随系统强调色。
+- **Configuration management**: Import Clash / mihomo YAML configurations or create your own. Edit through categorized forms or YAML, and keep local overrides when provider configurations update.
+- **Nodes and proxy groups**: Switch nodes, test latency, search and filter. Supports manual selection, automatic latency testing, failover, and load balancing.
+- **Rule-based routing**: Reorder and toggle rules, inspect rule sets, and configure DNS and traffic sniffing.
+- **System Proxy and Enhanced Mode (TUN)**: Use the system proxy or TUN with IPv4-only or IPv4/IPv6 dual-stack networking.
+- **Network overview**: View live traffic rates, connections, daily and monthly usage, outbound IP information, and diagnostics for internet connectivity, gateway, DNS, and proxies.
+- **Remote controller**: Inspect connections, proxy chains, and DNS records on local or remote mihomo instances, and close connections as needed.
+- **Everyday tools**: Menu bar controls, launch at login, global shortcuts, app updates, backup and restore, and custom JavaScript tiles.
+- **Native interface**: Light and dark appearances with the system accent color.
 
-## 界面预览
+## Screenshots
 
-### 仪表盘 · 浅色
+### Dashboard · Light
 
-![Mimo 浅色仪表盘](docs/images/mimo-dashboard-light-hd.png)
+![Mimo dashboard in light mode](docs/images/mimo-dashboard-light-hd.png)
 
-### 仪表盘 · 深色
+### Dashboard · Dark
 
-![Mimo 深色仪表盘](docs/images/mimo-dashboard-dark-hd.png)
+![Mimo dashboard in dark mode](docs/images/mimo-dashboard-dark-hd.png)
 
-### 远程控制器
+### Remote Controller
 
-![Mimo 远程控制器](docs/images/mimo-controller-hd.png)
+![Mimo remote controller](docs/images/mimo-controller-hd.png)
 
-### 代理与策略组
+### Proxies and Groups
 
-![Mimo 代理与策略组](docs/images/mimo-proxies-hd.png)
+![Mimo proxies and groups](docs/images/mimo-proxies-hd.png)
 
-## 下载与安装
+## Download and Installation
 
-需要 **macOS 14 或更新版本**。目前发布的安装包适用于 **Apple silicon Mac（M1 及更新芯片）**。
+Requires **macOS 14 or later**. Current release packages are available for **Apple silicon Macs (M1 and later)**.
 
-1. 前往 [Releases](https://github.com/MimoProxy/Mimo/releases/latest)，下载附件中的 `Mimo-…zip` 安装包。
-2. 解压后，将 `Mimo.app` 拖入“应用程序”文件夹并打开。
-3. 应用已内置 mihomo，无需另外安装内核或开发工具。
+1. Visit [Releases](https://github.com/MimoProxy/Mimo/releases/latest) and download the attached ZIP package.
+2. Unzip it, drag `Mimo.app` into Applications, and open it.
+3. The mihomo core is bundled. No separate core or development tools are required.
 
-首次打开如果 macOS 提示无法验证开发者，请确认文件来自上面的发布页，再按 [Apple 的说明](https://support.apple.com/zh-cn/102445)，在“系统设置 → 隐私与安全性”中选择“仍要打开”。
+If macOS cannot verify the developer on first launch, confirm that you downloaded the app from the release page above. Then follow [Apple's instructions](https://support.apple.com/en-us/102445) to choose **Open Anyway** in **System Settings → Privacy & Security**.
 
-## 配置怎么选
+## Choosing a Configuration
 
-| 方式 | 适合谁 |
+| Approach | Best for |
 | --- | --- |
-| 服务商配置 | 希望直接使用订阅提供的节点、DNS、策略组与规则；本地修改会在订阅更新后保留 |
-| 自定义配置 + 远程代理集 | 希望自行维护 DNS、策略组与规则，只从订阅获取节点；可添加多个代理集 |
+| Provider configuration | Using the nodes, DNS, proxy groups, and rules supplied by a subscription. Local changes are preserved when the subscription updates. |
+| Custom configuration + remote proxy sets | Managing your own DNS, proxy groups, and rules while fetching only nodes from subscriptions. Multiple proxy sets can be added. |
 
-“远程代理集”入口位于“代理”和“配置列表”的工具栏。它只向自定义配置提供节点，不会带入服务商的 DNS 或规则。
+Remote proxy sets are available from the toolbars on the Proxies and Configurations pages. They contribute nodes to custom configurations without importing the provider's DNS or rules.
 
-单独的节点可在配置编辑器的“代理”分类中添加，支持粘贴节点分享链接、Base64 文本或手动填写。订阅 URL 导入与节点链接导入是不同入口。
+To add individual nodes, use the Proxies category in the configuration editor. You can paste node share links or Base64 text, or enter the settings manually. Subscription URLs and node share links use separate import options.
 
-## 更新与备份
+## Updates and Backups
 
-- **应用更新**：在“关于”中点击“检查更新…”，也可开启“自动检查更新”。自动检查默认关闭，安装更新需要你确认；内核随应用一同更新。
-- **订阅更新**：在“配置列表”中更新单份配置或点击“全部更新”；更新间隔在该页的“更新”区域设置。
-- **完整备份**：在“设置 → 数据 → 备份与恢复”导出或恢复。恢复前会自动备份现有数据，并停止当前内核。
-- **分享自定义配置**：使用“导出配置（保留订阅）”，生成可重新导入 Mimo 的 `.mimo.yaml` 文件。
+- **App updates**: Choose **Check for Updates** in About, or enable automatic update checks. Automatic checks are off by default, and installation requires your confirmation. The core is updated with the app.
+- **Subscription updates**: Update a single configuration or choose **Update All** on the Configurations page. Set the interval in that page's Update section.
+- **Full backups**: Export or restore under **Settings → Data → Backup & Restore**. A backup of your current data is created before restoration, and the running core is stopped.
+- **Sharing custom configurations**: Use **Export Configuration (Keep Subscriptions)** to create a `.mimo.yaml` file that can be imported back into Mimo.
 
-配置与订阅凭据保存在本机，尚未加密存储。备份和保留订阅的导出文件也可能包含节点密码、订阅地址，请妥善保管。
+Configurations and subscription credentials are stored locally without encryption. Backups and exports that retain subscriptions may also contain node passwords and subscription URLs. Keep these files secure.
 
-## 常见问题
+## FAQ
 
-### 抓包与重写可以使用吗？
+### Are traffic capture and rewrites available?
 
-这两项功能仍在开发中，当前正式发行版暂不可启用。普通代理和分流功能不需要安装 HTTPS 证书。
+These features are still in development and cannot currently be enabled in release builds. Regular proxying and rule-based routing do not require an HTTPS certificate to be installed.
 
-### 如何退出或卸载？
+### How do I quit or uninstall Mimo?
 
-从应用菜单或菜单栏面板退出 Mimo，会停止内核并恢复系统代理。关闭主窗口后仍可通过菜单栏使用。
+Quit Mimo from the app menu or menu bar panel to stop the core and restore system proxy settings. Closing the main window keeps Mimo available in the menu bar.
 
-若安装过增强服务，先在“关于”中点击“移除增强服务”，再退出并将 `Mimo.app` 移到废纸篓。删除应用不会自动清除本地配置；需要保留数据时可先导出备份。
+If you installed the Enhanced Service, remove it from About first. Then quit Mimo and move `Mimo.app` to the Trash. Deleting the app does not automatically remove local configurations; export a backup first if you want to keep your data.
 
-## 反馈
+## Feedback
 
-请在 [GitHub Issues](https://github.com/MimoProxy/Mimo/issues) 中提供 Mimo 版本、macOS 版本、使用模式、复现步骤和错误提示。“设置 → 数据”可导出诊断包。
+When opening a [GitHub issue](https://github.com/MimoProxy/Mimo/issues), include your Mimo and macOS versions, proxy mode, steps to reproduce, and any error messages. You can export a diagnostic report from **Settings → Data**.
 
-公开反馈前，请隐去订阅链接、节点密码、令牌等敏感信息。
+Before posting publicly, redact subscription URLs, node passwords, tokens, and other sensitive information.
 
-## 致谢
+## Acknowledgments
 
-感谢 [MetaCubeX / mihomo](https://github.com/MetaCubeX/mihomo)、[Sparkle](https://github.com/sparkle-project/Sparkle) 和 [Yams](https://github.com/jpsim/Yams) 及其贡献者。第三方组件的许可证随应用附带。
+Thanks to [MetaCubeX / mihomo](https://github.com/MetaCubeX/mihomo), [Sparkle](https://github.com/sparkle-project/Sparkle), [Yams](https://github.com/jpsim/Yams), and their contributors. Third-party licenses are included with the app.
 
-特别感谢 [Stash](https://stash.ws/)。这款设计出色的软件，为 Mimo 的设计与开发带来了许多启发。
+Special thanks to [Stash](https://stash.ws/). Its outstanding design has been a source of inspiration for Mimo's design and development.
