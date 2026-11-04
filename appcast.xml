@@ -3,6 +3,32 @@
     <channel>
         <title>Mimo</title>
         <item>
+            <title>0.1.6</title>
+            <pubDate>Wed, 04 Nov 2026 19:05:03 +0800</pubDate>
+            <sparkle:version>7</sparkle:version>
+            <sparkle:shortVersionString>0.1.6</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description><![CDATA[<pre>Mimo 0.1.6
+
+English
+- Refined the menu bar panel with per-profile pinned policy groups, inline expansion and profile switching. Added Dashboard and Remote Controller shortcuts, removed duplicate traffic charts and the power button, and unified action rows and the native window material.
+- Added instant switching between Simplified Chinese and English, plus a dashboard control to show or hide IP addresses.
+- Expanded Remote Controller column customization and added custom proxy-set names to connection details.
+- Replaced the system chart with a compact resource bar and added application memory alongside core metrics.
+- Fixed extra table-header borders, incorrect horizontal-scroller viewport binding and clipped detail scrollers; normalized the MIPS stack label.
+
+简体中文
+- 优化菜单栏面板：支持按配置置顶策略组、面板内展开和配置切换；新增仪表盘与远程控制器入口，移除重复流量图和电源按钮，统一操作行及原生窗口材质。
+- 新增简体中文与英文即时切换，以及仪表盘 IP 地址显示开关。
+- 扩展远程控制器的列自定义选项，连接详情显示自定义远程代理集名称。
+- 使用紧凑资源条替代系统图表，并在内核指标旁显示应用内存。
+- 修复列表表头多余边框、水平滚动条控制错误视口及连接详情滚动条裁切的问题，统一 MIPS 协议栈标签。
+</pre>
+]]></description>
+            <enclosure url="https://github.com/MimoProxy/Mimo/releases/download/v0.1.6/Mimo-0.1.6-7.zip" length="65747417" type="application/octet-stream" sparkle:edSignature="MT54Kkhj636vaS+s8349eKEhn7SroYfvwwNSFid4InAZiw39akS41fQWbZGkfc+nGYkGj21S49Gk/mqjnJnZBg=="/>
+        </item>
+        <item>
             <title>0.1.5</title>
             <pubDate>Wed, 04 Nov 2026 15:16:31 +0800</pubDate>
             <sparkle:version>6</sparkle:version>
@@ -49,18 +75,6 @@ English
 </pre>
 ]]></description>
             <enclosure url="https://github.com/MimoProxy/Mimo/releases/download/v0.1.4/Mimo-0.1.4-5.zip" length="65319502" type="application/octet-stream" sparkle:edSignature="ir1kBlV1FvcBKnm7dczlgCViXDPOoYqyGZJqih86mrebW4bdIILywW2QdzD+s5xmKYI5vy7MXH5XiIRhXeenDg=="/>
-        </item>
-        <item>
-            <title>0.1.3</title>
-            <pubDate>Wed, 04 Nov 2026 12:04:03 +0800</pubDate>
-            <sparkle:version>4</sparkle:version>
-            <sparkle:shortVersionString>0.1.3</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description><![CDATA[<pre>Mimo 0.1.3
-</pre>
-]]></description>
-            <enclosure url="https://github.com/MimoProxy/Mimo/releases/download/v0.1.3/Mimo-0.1.3-4.zip" length="64891862" type="application/octet-stream" sparkle:edSignature="KDdsxf+1lIX7kkzitB2ZTazfmO7nZSG76k0lY/URvhmnoAOoqn8J731acFg2qOjsA29OxZJmMkc8nni8f0JPBw=="/>
         </item>
     </channel>
 </rss>
