@@ -3,6 +3,30 @@
     <channel>
         <title>Mimo</title>
         <item>
+            <title>0.1.7</title>
+            <pubDate>Wed, 04 Nov 2026 20:07:38 +0800</pubDate>
+            <sparkle:version>8</sparkle:version>
+            <sparkle:shortVersionString>0.1.7</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description><![CDATA[<div style="white-space: pre-wrap; overflow-wrap: anywhere; word-break: break-word;">Mimo 0.1.7
+
+English
+- Added live Top 5 traffic rankings to the menu bar, with domain and process views. Connections are grouped and ranked by combined upload and download speed.
+- Added domain favicons and process icons. Each row shows upload on the left and download on the right; the panel adapts to smaller screens.
+- Fixed release notes wrapping and restored the native font in update dialogs.
+- Fixed blank or incorrectly positioned log rows after switching source filters while following the latest entries.
+
+简体中文
+- 菜单栏新增实时流量 Top 5，可在域名和进程间切换；合并同类连接，按上下行合计速率排序。
+- 域名显示 favicon，进程显示应用图标；速率统一为左侧上行、右侧下行，面板适配小屏空间。
+- 修复更新窗口中更新说明不自动换行的问题，并使用系统字体。
+- 修复跟随最新日志时，切换来源筛选后列表空白或滚动位置错误的问题。
+</div>
+]]></description>
+            <enclosure url="https://github.com/MimoProxy/Mimo/releases/download/v0.1.7/Mimo-0.1.7-8.zip" length="65818656" type="application/octet-stream" sparkle:edSignature="nmlxsIIIvDBxp+dyNM7g2y5ZGHYbcv1BKxyujIaax5F0W67iPYemejawoVSx0v6aJEfeLoqtXebQNrw6UgtLAA=="/>
+        </item>
+        <item>
             <title>0.1.6</title>
             <pubDate>Wed, 04 Nov 2026 19:05:03 +0800</pubDate>
             <sparkle:version>7</sparkle:version>
@@ -51,30 +75,6 @@ English
 </pre>
 ]]></description>
             <enclosure url="https://github.com/MimoProxy/Mimo/releases/download/v0.1.5/Mimo-0.1.5-6.zip" length="65490627" type="application/octet-stream" sparkle:edSignature="b+ya0aJL95lSmqb0BiCrU7dE0QhpK1dASID0Ub52nopFA/9oXXbE/lKjpOL65LI5xYg6+bkmOEQYgZMz/jH0Ag=="/>
-        </item>
-        <item>
-            <title>0.1.4</title>
-            <pubDate>Wed, 04 Nov 2026 14:10:32 +0800</pubDate>
-            <sparkle:version>5</sparkle:version>
-            <sparkle:shortVersionString>0.1.4</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description><![CDATA[<pre>Mimo 0.1.4
-
-English
-- Added Simplified Chinese and English UI localization, following the system language.
-- Localized the main app, menu bar, Remote Controller, dialogs, help and error messages.
-- Improved English layouts and singular/plural forms for counts.
-- Preserved saved profile and node names, configuration values and traffic history.
-
-简体中文
-- 新增简体中文和英文界面，默认跟随系统语言。
-- 覆盖主应用、菜单栏、远程控制器、弹窗、帮助与错误提示。
-- 优化英文布局和数量单复数显示。
-- 保留已保存的配置与节点名称、配置值及流量历史。
-</pre>
-]]></description>
-            <enclosure url="https://github.com/MimoProxy/Mimo/releases/download/v0.1.4/Mimo-0.1.4-5.zip" length="65319502" type="application/octet-stream" sparkle:edSignature="ir1kBlV1FvcBKnm7dczlgCViXDPOoYqyGZJqih86mrebW4bdIILywW2QdzD+s5xmKYI5vy7MXH5XiIRhXeenDg=="/>
         </item>
     </channel>
 </rss>
