@@ -1,8 +1,25 @@
-# Mimo
+<div align="center">
 
-基于 [mihomo](https://github.com/MetaCubeX/mihomo) 的原生 macOS 代理客户端。在熟悉的 Mac 界面里，管理配置、切换节点、设置分流，并查看网络状态。
+<img src="docs/images/mimo-logo.png" alt="Mimo Logo" width="160" height="160" />
 
-[下载最新版](https://github.com/MimoProxy/Mimo/releases/latest) · [更新记录](https://github.com/MimoProxy/Mimo/releases) · [问题反馈](https://github.com/MimoProxy/Mimo/issues)
+<h1>Mimo</h1>
+
+<p>基于 <a href="https://github.com/MetaCubeX/mihomo">mihomo</a> 的原生 macOS 代理客户端</p>
+
+<p>
+  <a href="https://github.com/MimoProxy/Mimo/releases/latest"><strong>下载最新版</strong></a> ·
+  <a href="https://github.com/MimoProxy/Mimo/releases">更新记录</a> ·
+  <a href="https://github.com/MimoProxy/Mimo/issues">问题反馈</a>
+</p>
+
+<p>
+  Mimo 的名字源自俄语「Мимо」，有「从旁经过」之意。<br />
+  愿每一次连接，都能轻巧地绕过阻碍，自在抵达你想去的地方。
+</p>
+
+</div>
+
+在熟悉的 Mac 界面里，管理配置、切换节点、设置分流，并查看网络状态。
 
 Mimo 需要你自行提供代理节点或订阅，不提供代理服务。
 
