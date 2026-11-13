@@ -1,0 +1,15 @@
+{
+  "schema": 1,
+  "package": "io.github.mimoproxy",
+  "latest": {
+    "version_name": "1.0.0",
+    "version_code": 1,
+    "url": "https://github.com/MimoProxy/Mimo/releases/download/android-v1.0.0/Mimo-Android-1.0.0.apk",
+    "size": 62342350,
+    "sha256": "f6bfd5a088ac3b6742b23e7b68f4d3e688f424570e024795b5ee66859d30ddbc",
+    "certificate_sha256": "125fd4dd7391e87d63f8a8dde9090f8175f3a79051b64fa5a75588c92416fdaa",
+    "min_sdk": 26,
+    "notes": "Mimo for Android 1.0.0\n\nEnglish\n\nNew features\n- First public Android release, with a native mihomo VPN, rule/global/direct modes and per-app routing.\n- Import subscriptions, YAML configurations and node links; edit profiles, proxy groups, remote proxy sets, DNS and rules while retaining local overrides.\n- Private Network controls for Zeno and Tailscale / Headscale, with independent switches and explicit routing choices for overlapping subnets.\n- Live traffic and usage statistics, connection details, DNS records, latency tests and network diagnostics.\n- In-app update checks with APK size, SHA-256, package, version and signing-certificate verification before system-confirmed installation.\n\nMajor fixes\n- Fixed pages freezing after theme changes and prevented consecutive profile edits from overwriting one another.\n\nPerformance\n- Reduced unnecessary exit-IP lookups, runtime reloads and background traffic processing.\n- Improved icon caching and memory reporting.\n\nExperience improvements\n- Expanded protocol editing, including Snell v6, TLS, Reality, ALPN and protocol-specific advanced fields.\n- Added structured nested editors, rule sorting, proxy-set inspection, profile export and backup/restore.\n\nOther fixes\n- Improved proxy-set naming, node display and group-icon refresh behavior.\n\nCore\n- Bundled mihomo v1.19.34. Requires Android 8.0 or newer and an arm64 device.\n\n简体中文\n\n新增功能\n- 首次发布安卓正式版，提供原生 mihomo VPN，支持规则／全局／直连模式和分应用代理。\n- 支持订阅、YAML 配置和节点链接导入；可编辑配置、策略组、远程代理集、DNS 与规则，并保留本地覆写。\n- 新增「内网互联」，独立启用 Zeno 和 Tailscale／Headscale，网段重叠时可明确选择访问出口。\n- 提供实时流量与用量统计、连接详情、DNS 记录、节点测速和网络诊断。\n- 支持应用内检查更新；安装前核对 APK 大小、SHA-256、包名、版本与签名证书，由系统安装器确认安装。\n\n重大修复\n- 修复主题切换后页面冻结，以及连续编辑配置时修改互相覆盖的问题。\n\n性能优化\n- 减少重复的出口 IP 查询、内核配置重载和后台流量处理。\n- 优化图标缓存与内存指标展示。\n\n体验改进\n- 完善 Snell v6、TLS、Reality、ALPN 及各协议高级参数编辑。\n- 支持结构化嵌套编辑、规则排序、代理集查看、配置导出与备份恢复。\n\n常规修复\n- 改善远程代理集命名、节点展示与策略组图标刷新。\n\n内核更新\n- 内置 mihomo v1.19.34，支持 Android 8.0 及以上的 arm64 设备。\n",
+    "published": "2026-11-13"
+  }
+}
