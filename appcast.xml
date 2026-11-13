@@ -1,7 +1,77 @@
-<?xml version="1.0" standalone="yes"?>
+<?xml version='1.0' encoding='utf-8'?>
 <rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
     <channel>
         <title>Mimo</title>
+        <item>
+            <title>0.1.10</title>
+            <pubDate>Fri, 13 Nov 2026 15:46:26 +0800</pubDate>
+            <sparkle:version>10</sparkle:version>
+            <sparkle:shortVersionString>0.1.10</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description>&lt;div style="white-space: pre-wrap; overflow-wrap: anywhere; word-break: break-word;"&gt;Mimo 0.1.10
+
+English
+
+New features
+- Added Private Network settings with independent Zeno and Tailscale controls, Headscale configuration, and copy actions for the Zeno Peer ID and local subnets.
+- Expanded proxy editing with Snell v6 and protocol-specific TLS, Reality, ALPN, ECH and advanced fields.
+- Added image, audio and video previews to capture details. Request and response body retention limits can be set from 1 to 64 MiB per body; the default remains 1 MiB.
+- Added Surge HTTP module compatibility alongside Loon modules.
+
+Major fixes
+- Fixed rewrite modules not taking effect promptly after reactivation when a browser reused existing connections.
+- Improved save-failure and quit handling to protect unsaved configuration changes.
+
+Performance
+- Improved Remote Controller Liquid Glass tab switching, live updates, searching and window resizing.
+- Process configuration saves, certificate checks and favicons in the background. Schedule tiles independently and reuse completed capture details to reduce UI stalls and repeated body loading.
+
+Experience improvements
+- Arrange proxy-node cards in three equal columns that resize with the window.
+- Save outbound mode, IPv6, DNS and disconnect-on-node-change options per profile. Manage Geo and cache settings across the app.
+- Remember policy-group display order per profile. Configuration exports preserve remote proxy-set links without bundling downloaded node caches.
+
+Other fixes
+- Fixed Remote Controller column-width persistence.
+- Fixed failures when closing some connections.
+- Fixed deleted capture records reappearing after an in-flight refresh.
+
+Core update
+- Updated the bundled mihomo core from v1.19.33 to v1.19.34.
+
+简体中文
+
+新增功能
+- 新增「内网互联」，独立配置 Zeno 与 Tailscale，支持 Headscale，可复制 Zeno Peer ID 和本机网段。
+- 完善节点编辑器，补齐 Snell v6 及各协议的 TLS、Reality、ALPN、ECH 和高级参数。
+- 抓包新增图片、音频和视频预览；每个请求或响应正文的保存上限可设为 1–64 MiB，默认仍为 1 MiB。
+- 新增 Surge HTTP 模块兼容，可与 Loon 模块并用。
+
+重大修复
+- 修复浏览器复用已有连接时，重新启用重写模块不能及时生效的问题。
+- 完善配置保存失败和退出处理，保护尚未保存的修改，避免直接退出丢失草稿。
+
+性能优化
+- 优化远程控制器连接／请求／DNS 页签的 Liquid Glass 切换动画、实时刷新、搜索与窗口缩放。
+- 配置保存、证书检查和网站图标处理移至后台；磁贴独立调度，已完成的抓包详情复用缓存，减少界面卡顿和正文重复加载。
+
+体验改进
+- 节点卡片改为每行三列等宽布局，随窗口宽度伸缩。
+- 出站模式、IPv6、DNS 和切换节点断连选项按配置保存；Geo 与缓存设置统一由应用管理。
+- 策略组显示顺序按配置记忆；导出配置保留远程代理集链接，不携带已下载的节点缓存。
+
+常规修复
+- 修复远程控制器列宽保存不正确的问题。
+- 修复部分连接无法关闭的问题。
+- 修复清空抓包记录后，旧结果重新出现的问题。
+
+内核更新
+- 内置 mihomo 从 v1.19.33 升级至 v1.19.34。
+&lt;/div&gt;
+</description>
+            <enclosure url="https://github.com/MimoProxy/Mimo/releases/download/v0.1.10/Mimo-0.1.10-10.zip" length="66833161" type="application/octet-stream" sparkle:edSignature="DTE53PphUt0WA+b1+WHlLU/T90cEBfCkGJ9Zt+ZSJ0xrNP+W2Jt9uMVWLgFpLF7p9OFpcPIqgm2pnl0i6NCTAQ==" />
+        </item>
         <item>
             <title>0.1.9</title>
             <pubDate>Fri, 06 Nov 2026 23:30:19 +0800</pubDate>
@@ -9,16 +79,16 @@
             <sparkle:shortVersionString>0.1.9</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description><![CDATA[<div style="white-space: pre-wrap; overflow-wrap: anywhere; word-break: break-word;">Mimo 0.1.9
+            <description>&lt;div style="white-space: pre-wrap; overflow-wrap: anywhere; word-break: break-word;"&gt;Mimo 0.1.9
 
 English
 - Added an option to disconnect existing connections when switching proxy nodes from the Proxies page or menu bar. Only connections using the affected policy group are disconnected. This option is off by default.
 
 简体中文
 - 新增「切换节点时断开现有连接」。开启后，从代理页或菜单栏切换节点时，只断开经过该策略组的现有连接。此选项默认关闭。
-</div>
-]]></description>
-            <enclosure url="https://github.com/MimoProxy/Mimo/releases/download/v0.1.9/Mimo-0.1.9-9.zip" length="65781172" type="application/octet-stream" sparkle:edSignature="goYg2Sgt8lbRrkGCw1ey+9DZJHJ6o6B2LXEzQbuZHrIYRyX3z4zKrHN9SZpaHRH563isVhzOWozT6BajEGDLAQ=="/>
+&lt;/div&gt;
+</description>
+            <enclosure url="https://github.com/MimoProxy/Mimo/releases/download/v0.1.9/Mimo-0.1.9-9.zip" length="65781172" type="application/octet-stream" sparkle:edSignature="goYg2Sgt8lbRrkGCw1ey+9DZJHJ6o6B2LXEzQbuZHrIYRyX3z4zKrHN9SZpaHRH563isVhzOWozT6BajEGDLAQ==" />
         </item>
         <item>
             <title>0.1.7</title>
@@ -27,7 +97,7 @@ English
             <sparkle:shortVersionString>0.1.7</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description><![CDATA[<div style="white-space: pre-wrap; overflow-wrap: anywhere; word-break: break-word;">Mimo 0.1.7
+            <description>&lt;div style="white-space: pre-wrap; overflow-wrap: anywhere; word-break: break-word;"&gt;Mimo 0.1.7
 
 English
 - Added live Top 5 traffic rankings to the menu bar, with domain and process views. Connections are grouped and ranked by combined upload and download speed.
@@ -40,35 +110,9 @@ English
 - 域名显示 favicon，进程显示应用图标；速率统一为左侧上行、右侧下行，面板适配小屏空间。
 - 修复更新窗口中更新说明不自动换行的问题，并使用系统字体。
 - 修复跟随最新日志时，切换来源筛选后列表空白或滚动位置错误的问题。
-</div>
-]]></description>
-            <enclosure url="https://github.com/MimoProxy/Mimo/releases/download/v0.1.7/Mimo-0.1.7-8.zip" length="65818656" type="application/octet-stream" sparkle:edSignature="nmlxsIIIvDBxp+dyNM7g2y5ZGHYbcv1BKxyujIaax5F0W67iPYemejawoVSx0v6aJEfeLoqtXebQNrw6UgtLAA=="/>
-        </item>
-        <item>
-            <title>0.1.6</title>
-            <pubDate>Wed, 04 Nov 2026 19:05:03 +0800</pubDate>
-            <sparkle:version>7</sparkle:version>
-            <sparkle:shortVersionString>0.1.6</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description><![CDATA[<div style="white-space: pre-wrap; overflow-wrap: anywhere; word-break: break-word;">Mimo 0.1.6
-
-English
-- Refined the menu bar panel with per-profile pinned policy groups, inline expansion and profile switching. Added Dashboard and Remote Controller shortcuts, removed duplicate traffic charts and the power button, and unified action rows and the native window material.
-- Added instant switching between Simplified Chinese and English, plus a dashboard control to show or hide IP addresses.
-- Expanded Remote Controller column customization and added custom proxy-set names to connection details.
-- Replaced the system chart with a compact resource bar and added application memory alongside core metrics.
-- Fixed extra table-header borders, incorrect horizontal-scroller viewport binding and clipped detail scrollers; normalized the MIPS stack label.
-
-简体中文
-- 优化菜单栏面板：支持按配置置顶策略组、面板内展开和配置切换；新增仪表盘与远程控制器入口，移除重复流量图和电源按钮，统一操作行及原生窗口材质。
-- 新增简体中文与英文即时切换，以及仪表盘 IP 地址显示开关。
-- 扩展远程控制器的列自定义选项，连接详情显示自定义远程代理集名称。
-- 使用紧凑资源条替代系统图表，并在内核指标旁显示应用内存。
-- 修复列表表头多余边框、水平滚动条控制错误视口及连接详情滚动条裁切的问题，统一 MIPS 协议栈标签。
-</div>
-]]></description>
-            <enclosure url="https://github.com/MimoProxy/Mimo/releases/download/v0.1.6/Mimo-0.1.6-7.zip" length="65747417" type="application/octet-stream" sparkle:edSignature="MT54Kkhj636vaS+s8349eKEhn7SroYfvwwNSFid4InAZiw39akS41fQWbZGkfc+nGYkGj21S49Gk/mqjnJnZBg=="/>
+&lt;/div&gt;
+</description>
+            <enclosure url="https://github.com/MimoProxy/Mimo/releases/download/v0.1.7/Mimo-0.1.7-8.zip" length="65818656" type="application/octet-stream" sparkle:edSignature="nmlxsIIIvDBxp+dyNM7g2y5ZGHYbcv1BKxyujIaax5F0W67iPYemejawoVSx0v6aJEfeLoqtXebQNrw6UgtLAA==" />
         </item>
     </channel>
 </rss>
