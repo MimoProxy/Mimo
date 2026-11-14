@@ -1,7 +1,73 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
     <channel>
         <title>Mimo</title>
+        <item>
+            <title>0.1.11</title>
+            <pubDate>Sat, 14 Nov 2026 15:10:29 +0800</pubDate>
+            <sparkle:version>11</sparkle:version>
+            <sparkle:shortVersionString>0.1.11</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description><![CDATA[<div style="white-space: pre-wrap; overflow-wrap: anywhere; word-break: break-word;">Mimo 0.1.11
+
+English
+
+New features
+- Added tiles for streaming and AI endpoint reachability, exit IP information, and IP risk information.
+- Added local memory, upload, download, and network latency tile templates using the app&#x27;s existing measurements.
+- Added Loon installation-link imports and Kelee resource downloads; expanded Surge module routing, managed WebView scripts, and HTTPDNS IP, URL, and User-Agent matching.
+
+Major fixes
+- Fixed a subprocess output-reading race that could unexpectedly terminate the app when a background command finished.
+- Restore and verify policy selections before enabling enhanced mode to avoid using an unintended node during startup.
+
+Performance
+- Retain visited pages and isolate navigation updates to make sidebar switching smoother.
+- Prepare Remote Controller tabs ahead of time and reduce page rebuilding on the first switch.
+
+Experience improvements
+- Added compact, customizable tile cards with visible, editable scripts.
+- Edit remote rewrite modules as local copies while preserving their original sources.
+
+Other fixes
+- Fixed scrolling in the rewrite module source editor.
+- Restored native sizing for page toolbar actions.
+- Corrected jq filtering scopes in Coolapk module compatibility.
+
+Core update
+- The bundled mihomo core remains at v1.19.34.
+
+简体中文
+
+新增功能
+- 新增流媒体与 AI 入口可达性、出口 IP 信息和 IP 风险信息检测磁贴。
+- 新增内存占用、上传流量、下载流量和网络延迟磁贴模板，使用应用已有的实际测量数据。
+- 支持导入 Loon 安装链接与下载 Kelee 资源；完善 Surge 模块分流、托管 WebView 脚本，以及 HTTPDNS 的 IP、URL 和 User-Agent 匹配。
+
+重大修复
+- 修复后台命令结束时，输出读取竞态可能导致客户端意外退出的问题。
+- 开启增强模式前先恢复并校验策略组的节点选择，避免启动期间使用非预期节点。
+
+性能优化
+- 保留已访问页面并隔离导航更新，改善侧边栏页面切换流畅度。
+- 提前准备远程控制器页签，减少首次切换时的页面重建。
+
+体验改进
+- 磁贴卡片支持更紧凑的自定义布局，并可查看和编辑脚本。
+- 远程重写模块以本地副本进行编辑，保留原始来源。
+
+常规修复
+- 修复重写模块源码编辑器的滚动问题。
+- 恢复页面工具栏操作按钮的原生尺寸。
+- 修正酷安模块兼容中的 jq 过滤作用域。
+
+内核更新
+- 内置 mihomo 版本保持 v1.19.34。
+</div>
+]]></description>
+            <enclosure url="https://github.com/MimoProxy/Mimo/releases/download/v0.1.11/Mimo-0.1.11-11.zip" length="67755171" type="application/octet-stream" sparkle:edSignature="zXOcgnAlNsfQs5MXQnIuvdC5E8btwcFl1EKLCTz6xLITnbgR8HpOPh5tVXw/HKxOJvUh74gMDQWOBGRKk71DAQ=="/>
+        </item>
         <item>
             <title>0.1.10</title>
             <pubDate>Fri, 13 Nov 2026 15:46:26 +0800</pubDate>
@@ -70,7 +136,7 @@ Core update
 - 内置 mihomo 从 v1.19.33 升级至 v1.19.34。
 &lt;/div&gt;
 </description>
-            <enclosure url="https://github.com/MimoProxy/Mimo/releases/download/v0.1.10/Mimo-0.1.10-10.zip" length="66833161" type="application/octet-stream" sparkle:edSignature="DTE53PphUt0WA+b1+WHlLU/T90cEBfCkGJ9Zt+ZSJ0xrNP+W2Jt9uMVWLgFpLF7p9OFpcPIqgm2pnl0i6NCTAQ==" />
+            <enclosure url="https://github.com/MimoProxy/Mimo/releases/download/v0.1.10/Mimo-0.1.10-10.zip" length="66833161" type="application/octet-stream" sparkle:edSignature="DTE53PphUt0WA+b1+WHlLU/T90cEBfCkGJ9Zt+ZSJ0xrNP+W2Jt9uMVWLgFpLF7p9OFpcPIqgm2pnl0i6NCTAQ=="/>
         </item>
         <item>
             <title>0.1.9</title>
@@ -88,31 +154,7 @@ English
 - 新增「切换节点时断开现有连接」。开启后，从代理页或菜单栏切换节点时，只断开经过该策略组的现有连接。此选项默认关闭。
 &lt;/div&gt;
 </description>
-            <enclosure url="https://github.com/MimoProxy/Mimo/releases/download/v0.1.9/Mimo-0.1.9-9.zip" length="65781172" type="application/octet-stream" sparkle:edSignature="goYg2Sgt8lbRrkGCw1ey+9DZJHJ6o6B2LXEzQbuZHrIYRyX3z4zKrHN9SZpaHRH563isVhzOWozT6BajEGDLAQ==" />
-        </item>
-        <item>
-            <title>0.1.7</title>
-            <pubDate>Wed, 04 Nov 2026 20:07:38 +0800</pubDate>
-            <sparkle:version>8</sparkle:version>
-            <sparkle:shortVersionString>0.1.7</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description>&lt;div style="white-space: pre-wrap; overflow-wrap: anywhere; word-break: break-word;"&gt;Mimo 0.1.7
-
-English
-- Added live Top 5 traffic rankings to the menu bar, with domain and process views. Connections are grouped and ranked by combined upload and download speed.
-- Added domain favicons and process icons. Each row shows upload on the left and download on the right; the panel adapts to smaller screens.
-- Fixed release notes wrapping and restored the native font in update dialogs.
-- Fixed blank or incorrectly positioned log rows after switching source filters while following the latest entries.
-
-简体中文
-- 菜单栏新增实时流量 Top 5，可在域名和进程间切换；合并同类连接，按上下行合计速率排序。
-- 域名显示 favicon，进程显示应用图标；速率统一为左侧上行、右侧下行，面板适配小屏空间。
-- 修复更新窗口中更新说明不自动换行的问题，并使用系统字体。
-- 修复跟随最新日志时，切换来源筛选后列表空白或滚动位置错误的问题。
-&lt;/div&gt;
-</description>
-            <enclosure url="https://github.com/MimoProxy/Mimo/releases/download/v0.1.7/Mimo-0.1.7-8.zip" length="65818656" type="application/octet-stream" sparkle:edSignature="nmlxsIIIvDBxp+dyNM7g2y5ZGHYbcv1BKxyujIaax5F0W67iPYemejawoVSx0v6aJEfeLoqtXebQNrw6UgtLAA==" />
+            <enclosure url="https://github.com/MimoProxy/Mimo/releases/download/v0.1.9/Mimo-0.1.9-9.zip" length="65781172" type="application/octet-stream" sparkle:edSignature="goYg2Sgt8lbRrkGCw1ey+9DZJHJ6o6B2LXEzQbuZHrIYRyX3z4zKrHN9SZpaHRH563isVhzOWozT6BajEGDLAQ=="/>
         </item>
     </channel>
 </rss>
