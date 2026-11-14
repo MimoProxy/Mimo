@@ -31,7 +31,7 @@ Mimo requires your own proxy nodes or subscription. It does not provide a proxy 
 | --- | --- | --- |
 | **macOS** | macOS 14+, Apple silicon | Native Mac interface, menu bar controls, MITM capture and rewrites, JavaScript tiles, private networks |
 | **Windows** | Windows 11, x64 | WinUI 3 / Fluent interface, system tray controls, process routing, independent remote controller |
-| **Android** | Android 8.0+, arm64 | System VPN without root, per-app proxying, customizable home cards, Zeno / Tailscale access |
+| **Android** | Android 8.0+, arm64 | Material 3 Expressive design, customizable home cards, per-app proxying, Zeno / Tailscale access |
 
 All three clients support Clash / mihomo configurations, subscriptions with local overrides, node selection and latency tests, proxy groups, rules, DNS settings, traffic statistics, and backup and restore. Platform-specific features are described below.
 
@@ -54,7 +54,8 @@ Windows currently focuses on proxy management and remote control. MITM capture, 
 
 ### Android
 
-- **One system VPN, no root**: Route traffic through mihomo, proxy all apps or only selected apps, or exclude selected apps from the VPN.
+- **Material 3 Expressive design**: Expressive shapes, prominent connection controls, grouped cards and adaptive app bars, with light and dark themes.
+- **Per-app proxying**: Route traffic through mihomo, proxy all apps or only selected apps, or exclude selected apps from the VPN.
 - **Configurable home screen**: Arrange cards for connection status, traffic, rankings, DNS, network diagnostics and resource usage. Connect from Quick Settings or a home-screen widget.
 - **Edit on the phone**: Import subscriptions, files and node links; use categorized forms or the YAML editor with highlighting and search/replace. Saved node choices can be restored before the VPN takes over traffic.
 - **Mobile diagnostics**: Inspect recent requests, active connections, matched rules, DNS records and logs; use network and bandwidth tools, or share an authenticated proxy on the local network.
@@ -127,7 +128,7 @@ Run `Mimo-Windows-x64-Setup.exe`. It installs for the current user, adds an unin
 
 ### Android
 
-Install the APK on **Android 8.0 or later** with an **arm64** processor. If prompted, allow installation from the browser or file manager you used. Import a configuration and tap Connect, then approve Android's VPN permission. No root access is required.
+Install the APK on **Android 8.0 or later** with an **arm64** processor. If prompted, allow installation from the browser or file manager you used. Import a configuration and tap Connect, then approve Android's VPN permission.
 
 ## macOS Configuration Guide
 
