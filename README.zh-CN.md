@@ -62,23 +62,48 @@ Windows 当前侧重代理管理与远程控制，暂不提供 MITM 抓包、重
 
 ## 界面预览
 
-以下截图展示 macOS 客户端。
+### macOS
 
-### 仪表盘 · 浅色
+#### 仪表盘 · 浅色
 
 ![Mimo 浅色仪表盘](docs/images/mimo-dashboard-light-hd.png)
 
-### 仪表盘 · 深色
+#### 仪表盘 · 深色
 
 ![Mimo 深色仪表盘](docs/images/mimo-dashboard-dark-hd.png)
 
-### 远程控制器
+#### 远程控制器
 
 ![Mimo 远程控制器](docs/images/mimo-controller-hd.png)
 
-### 代理与策略组
+#### 代理与策略组
 
 ![Mimo 代理与策略组](docs/images/mimo-proxies-hd.png)
+
+### Windows
+
+#### 仪表盘
+
+![Mimo Windows 仪表盘](docs/images/mimo-windows-dashboard.png)
+
+#### 代理与策略组
+
+![Mimo Windows 代理与策略组](docs/images/mimo-windows-proxies.png)
+
+### Android
+
+<table>
+  <tr>
+    <th>首页</th>
+    <th>策略组</th>
+    <th>工具</th>
+  </tr>
+  <tr>
+    <td><a href="docs/images/mimo-android-home.jpg"><img src="docs/images/mimo-android-home.jpg" alt="Mimo Android 首页" width="260" /></a></td>
+    <td><a href="docs/images/mimo-android-policy-groups.jpg"><img src="docs/images/mimo-android-policy-groups.jpg" alt="Mimo Android 策略组" width="260" /></a></td>
+    <td><a href="docs/images/mimo-android-tools.jpg"><img src="docs/images/mimo-android-tools.jpg" alt="Mimo Android 工具" width="260" /></a></td>
+  </tr>
+</table>
 
 ## 下载与安装
 

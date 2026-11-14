@@ -62,23 +62,48 @@ Windows currently focuses on proxy management and remote control. MITM capture, 
 
 ## Screenshots
 
-The screenshots below show the macOS client.
+### macOS
 
-### Dashboard · Light
+#### Dashboard · Light
 
 ![Mimo dashboard in light mode](docs/images/mimo-dashboard-light-hd.png)
 
-### Dashboard · Dark
+#### Dashboard · Dark
 
 ![Mimo dashboard in dark mode](docs/images/mimo-dashboard-dark-hd.png)
 
-### Remote Controller
+#### Remote Controller
 
 ![Mimo remote controller](docs/images/mimo-controller-hd.png)
 
-### Proxies and Groups
+#### Proxies and Groups
 
 ![Mimo proxies and groups](docs/images/mimo-proxies-hd.png)
+
+### Windows
+
+#### Dashboard
+
+![Mimo for Windows dashboard](docs/images/mimo-windows-dashboard.png)
+
+#### Proxies and Groups
+
+![Mimo for Windows proxies and groups](docs/images/mimo-windows-proxies.png)
+
+### Android
+
+<table>
+  <tr>
+    <th>Home</th>
+    <th>Policy Groups</th>
+    <th>Tools</th>
+  </tr>
+  <tr>
+    <td><a href="docs/images/mimo-android-home.jpg"><img src="docs/images/mimo-android-home.jpg" alt="Mimo for Android home screen" width="260" /></a></td>
+    <td><a href="docs/images/mimo-android-policy-groups.jpg"><img src="docs/images/mimo-android-policy-groups.jpg" alt="Mimo for Android policy groups" width="260" /></a></td>
+    <td><a href="docs/images/mimo-android-tools.jpg"><img src="docs/images/mimo-android-tools.jpg" alt="Mimo for Android tools" width="260" /></a></td>
+  </tr>
+</table>
 
 ## Download and Installation
 
