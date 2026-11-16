@@ -111,7 +111,7 @@ Windows 当前侧重代理管理与远程控制，暂不提供 MITM 抓包、重
 | 平台 | 下载入口 | 安装包 |
 | --- | --- | --- |
 | macOS | [macOS 正式版](https://github.com/MimoProxy/Mimo/releases/latest) | `Mimo-….zip` · Apple silicon |
-| Windows | [Windows 正式版](https://github.com/MimoProxy/Mimo/releases/tag/windows-v1.0.0.1) | `Mimo-Windows-x64-Setup.exe` · x64 |
+| Windows | [Windows 正式版](https://github.com/MimoProxy/Mimo/releases/tag/windows-v1.0.2.1) | `Mimo-Windows-x64-Setup.exe` · x64 |
 | Android | [Android 正式版](https://github.com/MimoProxy/Mimo/releases/tag/android-v1.0.5) | `Mimo-Android-….apk` · arm64 |
 
 正式安装包统一发布在 [Releases](https://github.com/MimoProxy/Mimo/releases)。GitHub 的 **Latest** 标记指向 macOS 版，Windows 和 Android 使用各自的发布标签与更新清单。
