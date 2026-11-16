@@ -111,7 +111,7 @@ Windows currently focuses on proxy management and remote control. MITM capture, 
 | Platform | Download | Package |
 | --- | --- | --- |
 | macOS | [macOS release](https://github.com/MimoProxy/Mimo/releases/latest) | `Mimo-….zip` · Apple silicon |
-| Windows | [Windows release](https://github.com/MimoProxy/Mimo/releases/tag/windows-v1.0.0.1) | `Mimo-Windows-x64-Setup.exe` · x64 |
+| Windows | [Windows release](https://github.com/MimoProxy/Mimo/releases/tag/windows-v1.0.2.1) | `Mimo-Windows-x64-Setup.exe` · x64 |
 | Android | [Android release](https://github.com/MimoProxy/Mimo/releases/tag/android-v1.0.5) | `Mimo-Android-….apk` · arm64 |
 
 All official packages are published in [Releases](https://github.com/MimoProxy/Mimo/releases). GitHub's **Latest** label points to the macOS release; Windows and Android use their own release tags and update feeds.
