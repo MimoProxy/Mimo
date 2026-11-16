@@ -3,6 +3,38 @@
     <channel>
         <title>Mimo</title>
         <item>
+            <title>0.1.12</title>
+            <pubDate>Mon, 16 Nov 2026 15:54:18 +0800</pubDate>
+            <sparkle:version>12</sparkle:version>
+            <sparkle:shortVersionString>0.1.12</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description><![CDATA[<div style="white-space: pre-wrap; overflow-wrap: anywhere; word-break: break-word;">## 中文
+
+### 新增功能
+- 配置列表改为卡片展示，集中显示配置类型、流量占比、到期时间和更新时间。
+- 自定义配置支持查看远程代理集详情，分别显示各代理集的流量、到期时间和更新时间。
+
+### 体验改进
+- 配置卡片缩小并统一高度，远程代理集明细收进详情弹窗。
+- 首页上传、下载卡片缩小并保持等高，保留当前速率和今日累计，峰值移至悬浮提示。
+- 移除首页速率卡片中的曲线，界面更紧凑清晰。
+
+## English
+
+### New Features
+- Display configurations as cards with their type, traffic usage, expiry date, and last update.
+- View each remote proxy provider’s usage, expiry date, and last update in custom configuration details.
+
+### Experience Improvements
+- Use smaller, equal-height configuration cards with remote provider details in a popover.
+- Compact the upload and download cards to equal heights, showing the current rate and today’s total, with peak rates in tooltips.
+- Remove the rate charts from the home cards for a cleaner, more compact layout.
+</div>
+]]></description>
+            <enclosure url="https://github.com/MimoProxy/Mimo/releases/download/v0.1.12/Mimo-0.1.12-12.zip" length="67561808" type="application/octet-stream" sparkle:edSignature="5M54uTJ5a4mn6EUDyYcOfYrUOJkoUlfBo/K/0/QwmIpLuOJXoi/GPn4raWN1Y/KXvM6elJvCSehr677osY0jAw=="/>
+        </item>
+        <item>
             <title>0.1.11</title>
             <pubDate>Sat, 14 Nov 2026 15:10:29 +0800</pubDate>
             <sparkle:version>11</sparkle:version>
@@ -137,24 +169,6 @@ Core update
 &lt;/div&gt;
 </description>
             <enclosure url="https://github.com/MimoProxy/Mimo/releases/download/v0.1.10/Mimo-0.1.10-10.zip" length="66833161" type="application/octet-stream" sparkle:edSignature="DTE53PphUt0WA+b1+WHlLU/T90cEBfCkGJ9Zt+ZSJ0xrNP+W2Jt9uMVWLgFpLF7p9OFpcPIqgm2pnl0i6NCTAQ=="/>
-        </item>
-        <item>
-            <title>0.1.9</title>
-            <pubDate>Fri, 06 Nov 2026 23:30:19 +0800</pubDate>
-            <sparkle:version>9</sparkle:version>
-            <sparkle:shortVersionString>0.1.9</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description>&lt;div style="white-space: pre-wrap; overflow-wrap: anywhere; word-break: break-word;"&gt;Mimo 0.1.9
-
-English
-- Added an option to disconnect existing connections when switching proxy nodes from the Proxies page or menu bar. Only connections using the affected policy group are disconnected. This option is off by default.
-
-简体中文
-- 新增「切换节点时断开现有连接」。开启后，从代理页或菜单栏切换节点时，只断开经过该策略组的现有连接。此选项默认关闭。
-&lt;/div&gt;
-</description>
-            <enclosure url="https://github.com/MimoProxy/Mimo/releases/download/v0.1.9/Mimo-0.1.9-9.zip" length="65781172" type="application/octet-stream" sparkle:edSignature="goYg2Sgt8lbRrkGCw1ey+9DZJHJ6o6B2LXEzQbuZHrIYRyX3z4zKrHN9SZpaHRH563isVhzOWozT6BajEGDLAQ=="/>
         </item>
     </channel>
 </rss>
