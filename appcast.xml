@@ -3,6 +3,80 @@
     <channel>
         <title>Mimo</title>
         <item>
+            <title>0.1.13</title>
+            <pubDate>Thu, 19 Nov 2026 20:30:55 +0800</pubDate>
+            <sparkle:version>13</sparkle:version>
+            <sparkle:shortVersionString>0.1.13</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description><![CDATA[<div style="white-space: pre-wrap; overflow-wrap: anywhere; word-break: break-word;">Mimo 0.1.13
+
+## 简体中文
+
+### 新增功能
+
+- 首页新增长驻世界地图，按当前配置标出节点地区和数量。悬停节点分布条可在原位展开其余地区。
+- 菜单栏悬停策略组即可查看和切换节点。首页和菜单栏都支持一键测试所有节点，并用颜色区分延迟。
+
+### 重大修复
+
+- 修复远程控制器显示 DNS 缓存剩余时间时，搜索或切换标签页可能导致的崩溃。
+
+### 性能优化
+
+- 将抓包正文预览、运行配置搜索和长节点名称的测量移到后台，大型配置导入也可异步保存，减少界面卡顿。
+- 缓存日志筛选结果，并合并连续的新日志滚动更新。
+
+### 体验改进
+
+- 标题栏与地图背景融为一体，侧栏、节点浮层和首页卡片采用 Liquid Glass。
+- 重排首页卡片。上传和下载以并排的小卡片显示，订阅更紧凑，网络环境、策略组和内核内存依次排列。
+- 节点测速按结果返回顺序更新，同时显示测速进度。关于页增加项目主页入口。
+
+### 常规修复
+
+- 修复切换策略组时节点列表闪烁，手动选中节点时避免额外触发测速。
+- 首页和菜单栏可显示嵌套策略组当前节点的延迟。
+
+### 内核更新
+
+- 内置 mihomo v1.19.34。
+
+## English
+
+### New features
+
+- The dashboard map marks node regions and counts for the active configuration. Hover over the region strip to show the remaining regions in place.
+- Hover over a policy group in the menu bar to view and select nodes. The dashboard and menu bar both can test latency for all nodes, with color-coded latency.
+
+### Major fixes
+
+- Fixed a Remote Controller crash when searching or switching tabs while the DNS cache expiry countdown was active.
+
+### Performance improvements
+
+- Moved captured-body previews, runtime configuration search, and long node-name measurements off the main thread. Large profile imports also save asynchronously.
+- Cached filtered log entries and batched scroll updates as new log entries arrive.
+
+### Experience improvements
+
+- The title bar blends into the map, with Liquid Glass surfaces for the sidebar, node popovers, and dashboard cards.
+- The dashboard has compact side-by-side upload and download cards, a denser subscription summary, and a stack for network details, policy groups, and core memory.
+- Latency results appear as tests finish, with a progress indicator. The About page now links to the project homepage.
+
+### Other fixes
+
+- Fixed node grid flicker when switching policy groups. Selecting a node manually now preserves existing latency results.
+- The dashboard and menu bar show latency for the active node in nested policy groups.
+
+### Core update
+
+- Bundled mihomo v1.19.34.
+</div>
+]]></description>
+            <enclosure url="https://github.com/MimoProxy/Mimo/releases/download/v0.1.13/Mimo-0.1.13-13.zip" length="68474210" type="application/octet-stream" sparkle:edSignature="eO2iFcf4gFPotXDhHgcDF2wN1DpYV+ESKoNFs34dWpq/VBpFnBEerWD0luP6rE/KMk5L071Ah+dq0vE0V8QbCg=="/>
+        </item>
+        <item>
             <title>0.1.12</title>
             <pubDate>Mon, 16 Nov 2026 15:54:18 +0800</pubDate>
             <sparkle:version>12</sparkle:version>
@@ -99,76 +173,6 @@ Core update
 </div>
 ]]></description>
             <enclosure url="https://github.com/MimoProxy/Mimo/releases/download/v0.1.11/Mimo-0.1.11-11.zip" length="67755171" type="application/octet-stream" sparkle:edSignature="zXOcgnAlNsfQs5MXQnIuvdC5E8btwcFl1EKLCTz6xLITnbgR8HpOPh5tVXw/HKxOJvUh74gMDQWOBGRKk71DAQ=="/>
-        </item>
-        <item>
-            <title>0.1.10</title>
-            <pubDate>Fri, 13 Nov 2026 15:46:26 +0800</pubDate>
-            <sparkle:version>10</sparkle:version>
-            <sparkle:shortVersionString>0.1.10</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description>&lt;div style="white-space: pre-wrap; overflow-wrap: anywhere; word-break: break-word;"&gt;Mimo 0.1.10
-
-English
-
-New features
-- Added Private Network settings with independent Zeno and Tailscale controls, Headscale configuration, and copy actions for the Zeno Peer ID and local subnets.
-- Expanded proxy editing with Snell v6 and protocol-specific TLS, Reality, ALPN, ECH and advanced fields.
-- Added image, audio and video previews to capture details. Request and response body retention limits can be set from 1 to 64 MiB per body; the default remains 1 MiB.
-- Added Surge HTTP module compatibility alongside Loon modules.
-
-Major fixes
-- Fixed rewrite modules not taking effect promptly after reactivation when a browser reused existing connections.
-- Improved save-failure and quit handling to protect unsaved configuration changes.
-
-Performance
-- Improved Remote Controller Liquid Glass tab switching, live updates, searching and window resizing.
-- Process configuration saves, certificate checks and favicons in the background. Schedule tiles independently and reuse completed capture details to reduce UI stalls and repeated body loading.
-
-Experience improvements
-- Arrange proxy-node cards in three equal columns that resize with the window.
-- Save outbound mode, IPv6, DNS and disconnect-on-node-change options per profile. Manage Geo and cache settings across the app.
-- Remember policy-group display order per profile. Configuration exports preserve remote proxy-set links without bundling downloaded node caches.
-
-Other fixes
-- Fixed Remote Controller column-width persistence.
-- Fixed failures when closing some connections.
-- Fixed deleted capture records reappearing after an in-flight refresh.
-
-Core update
-- Updated the bundled mihomo core from v1.19.33 to v1.19.34.
-
-简体中文
-
-新增功能
-- 新增「内网互联」，独立配置 Zeno 与 Tailscale，支持 Headscale，可复制 Zeno Peer ID 和本机网段。
-- 完善节点编辑器，补齐 Snell v6 及各协议的 TLS、Reality、ALPN、ECH 和高级参数。
-- 抓包新增图片、音频和视频预览；每个请求或响应正文的保存上限可设为 1–64 MiB，默认仍为 1 MiB。
-- 新增 Surge HTTP 模块兼容，可与 Loon 模块并用。
-
-重大修复
-- 修复浏览器复用已有连接时，重新启用重写模块不能及时生效的问题。
-- 完善配置保存失败和退出处理，保护尚未保存的修改，避免直接退出丢失草稿。
-
-性能优化
-- 优化远程控制器连接／请求／DNS 页签的 Liquid Glass 切换动画、实时刷新、搜索与窗口缩放。
-- 配置保存、证书检查和网站图标处理移至后台；磁贴独立调度，已完成的抓包详情复用缓存，减少界面卡顿和正文重复加载。
-
-体验改进
-- 节点卡片改为每行三列等宽布局，随窗口宽度伸缩。
-- 出站模式、IPv6、DNS 和切换节点断连选项按配置保存；Geo 与缓存设置统一由应用管理。
-- 策略组显示顺序按配置记忆；导出配置保留远程代理集链接，不携带已下载的节点缓存。
-
-常规修复
-- 修复远程控制器列宽保存不正确的问题。
-- 修复部分连接无法关闭的问题。
-- 修复清空抓包记录后，旧结果重新出现的问题。
-
-内核更新
-- 内置 mihomo 从 v1.19.33 升级至 v1.19.34。
-&lt;/div&gt;
-</description>
-            <enclosure url="https://github.com/MimoProxy/Mimo/releases/download/v0.1.10/Mimo-0.1.10-10.zip" length="66833161" type="application/octet-stream" sparkle:edSignature="DTE53PphUt0WA+b1+WHlLU/T90cEBfCkGJ9Zt+ZSJ0xrNP+W2Jt9uMVWLgFpLF7p9OFpcPIqgm2pnl0i6NCTAQ=="/>
         </item>
     </channel>
 </rss>
